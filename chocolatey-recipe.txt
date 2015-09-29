@@ -12,7 +12,9 @@ choco install nodejs.install
 
 # utilities
 choco install  putty 
-choco install skype 
+choco install skype
+choco install slack
+choco upgrade slack
 choco install f.lux  
 choco install dotPeek
 choco install ilmerge
@@ -29,13 +31,15 @@ choco install autohotkey.portable
 choco install zoomit
 
 # editors
-choco install visualstudiocommunity2013
+#choco install visualstudiocommunity2013
+#choco install visualstudio2015community
 choco install resharper
 choco install WebStorm
 choco install pycharm-community
 choco install notepadplusplus
 choco install markdownpad2
 choco install atom
+choco install visualstudiocode
 
 # browsers
 choco install google-chrome-x64
